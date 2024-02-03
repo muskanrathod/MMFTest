@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MyApp" parent="@style/Theme.Material3.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorPrimary">@color/blue</item>
+        <item name="android:colorPrimaryDark">@color/blue</item>
+    </style>
+
+<!--    <style name="Theme.MyApp" parent="android:Theme.Material.Light.NoActionBar" />-->
+</resources>

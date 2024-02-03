@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/list_bg"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="3dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Name"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Address"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Profile"
+            android:textColor="@color/blue"
+            android:textSize="12sp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:background="@drawable/blue_btn_bg"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+</layout>
